@@ -5,8 +5,10 @@ const Projects: React.FC = () => {
     {
       num: '01',
       featured: true,
+      section: 'Featured',
       tag: 'In-Shop Branding · 2024',
       title: 'TATA BLUESCOPE STEEL',
+      image: '/placeholder-project.png',
       desc: 'In-shop branding and metro stall design for TATA BlueScope Steel — a large-scale retail branding project covering signage, display systems, and brand environment design.',
       tags: ['Branding', 'In-Shop', 'Retail', 'TATA'],
       link: 'https://www.behance.net/gallery/231830889/TATA-BlueScope-Steel-In-Shop-Branding-and-Metro-Stall',
@@ -14,7 +16,9 @@ const Projects: React.FC = () => {
     {
       num: '02',
       featured: false,
+      section: 'Motion',
       tag: 'TVC & Motion · 2024',
+      image: '/placeholder-project.png',
       title: 'COROMANDEL FERTILIZERS',
       desc: 'TVC and social media video production for Coromandel Fertilizers — motion graphics and visual storytelling for a national brand campaign.',
       tags: ['TVC', 'Motion', 'Social Media'],
@@ -23,7 +27,9 @@ const Projects: React.FC = () => {
     {
       num: '03',
       featured: false,
+      section: 'Digital',
       tag: 'Social Media · 2024',
+      image: '/placeholder-project.png',
       title: 'GSQUARE POSTS',
       desc: 'Social media post design series for GSquare — bold, on-brand creatives crafted for digital campaigns and audience engagement.',
       tags: ['Social Media', 'Graphic Design'],
@@ -32,7 +38,9 @@ const Projects: React.FC = () => {
     {
       num: '04',
       featured: false,
+      section: 'Motion',
       tag: 'Motion · 2024',
+      image: '/placeholder-project.png',
       title: 'F GEAR PROMO VIDEO',
       desc: 'Motion graphic promotional video for F Gear — dynamic product animation and visual effects for a high-energy brand campaign.',
       tags: ['Motion Graphics', 'After Effects', 'Promo'],
@@ -41,7 +49,9 @@ const Projects: React.FC = () => {
     {
       num: '05',
       featured: false,
+      section: 'Animation',
       tag: 'Logo Animation · 2023',
+      image: '/placeholder-project.png',
       title: 'CRAFTED LOGO ANIMATION',
       desc: 'Smooth, characterful logo animation with careful attention to easing, timing, and brand personality — bringing a static mark to life.',
       tags: ['Logo', 'Animation', 'After Effects'],
@@ -50,7 +60,9 @@ const Projects: React.FC = () => {
     {
       num: '06',
       featured: false,
+      section: 'Branding',
       tag: 'Branding · 2024',
+      image: '/placeholder-project.png',
       title: 'MIZAJ BRANDING',
       desc: 'In-shop branding and social media post design for Mizaj — a cohesive visual identity covering physical retail and digital presence.',
       tags: ['Identity', 'In-Shop', 'Social'],
@@ -68,6 +80,14 @@ const Projects: React.FC = () => {
       <div className="projects-grid">
         {projectsData.map((project, idx) => (
           <div key={idx} className={`project-card ${project.featured ? 'featured' : ''} reveal`}>
+            <div className="project-image">
+              <img
+                src={project.image || 'https://via.placeholder.com/700x450?text=No+Image'}
+                alt={project.title}
+                loading="lazy"
+              />
+            </div>
+            <div className="project-section">{project.section || 'General'}</div>
             <div className="project-num">{project.num}</div>
             <div className="project-tag">{project.tag}</div>
             <div className="project-title">{project.title}</div>
