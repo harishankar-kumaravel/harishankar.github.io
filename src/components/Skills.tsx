@@ -1,5 +1,4 @@
 import React from 'react';
-import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const Skills: React.FC = () => {
   const skillsData = [

@@ -2,10 +2,10 @@ import React from 'react';
 import { useScrollReveal } from '../hooks/useScrollReveal';
 
 const Hero: React.FC = () => {
-  const { reveal } = useScrollReveal();
+  const { ref, reveal } = useScrollReveal();
 
   return (
-    <section id="hero" className="hero">
+    <section id="hero" className="hero" ref={ref}>
       <div className="hero-bg-line"></div>
       <div className="hero-circle"></div>
       <div className="hero-left">
