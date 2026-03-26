@@ -1,13 +1,21 @@
-# Harishankar K — Portfolio (React Version)
+# Harishankar Kumaravel — Motion Graphic Designer Portfolio
 
-A modern React + TypeScript portfolio built from the original HTML design. This version provides a component-based architecture with improved maintainability and scalability.
+A modern React + TypeScript portfolio showcasing motion graphics, animation, and visual effects work. This portfolio highlights cinematic storytelling through motion design for global brands and creative projects.
+
+## About
+
+This portfolio features:
+- **Motion Graphics Expertise**: Specializing in After Effects, Cinema 4D, and advanced animation techniques
+- **Cinematic Production**: TVCs, brand films, and visual storytelling for major brands
+- **Global Client Experience**: Projects for TATA, Coromandel, and international clients
+- **Technical Proficiency**: VFX, 3D animation, and post-production workflows
 
 ## Features
 
-- **React 18** with TypeScript
+- **React 18** with TypeScript for robust development
 - **Custom Hooks** for scroll reveal and navbar effects
-- **Responsive Design** with CSS Grid and Flexbox
-- **Smooth Animations** using CSS transitions
+- **Responsive Design** optimized for showcasing motion work
+- **Smooth Animations** using CSS transitions and scroll effects
 - **Component-Based Architecture** for easy maintenance
 - **Custom Cursor** with smooth trailing animation
 
@@ -17,12 +25,12 @@ A modern React + TypeScript portfolio built from the original HTML design. This 
 src/
 ├── components/
 │   ├── Navigation.tsx      # Navigation bar component
-│   ├── Hero.tsx            # Hero section
-│   ├── About.tsx           # About section
-│   ├── Experience.tsx      # Experience & Education sections
-│   ├── Skills.tsx          # Skills grid with animated bars
-│   ├── Projects.tsx        # Portfolio projects grid
-│   ├── Contact.tsx         # Contact form
+│   ├── Hero.tsx            # Hero section with motion focus
+│   ├── About.tsx           # About section highlighting motion expertise
+│   ├── Experience.tsx      # Motion graphics experience & education
+│   ├── Skills.tsx          # Motion graphics and animation skills
+│   ├── Projects.tsx        # Motion graphics portfolio showcase
+│   ├── Contact.tsx         # Contact form for motion projects
 │   ├── Footer.tsx          # Footer
 │   └── CustomCursor.tsx    # Custom cursor tracking
 ├── hooks/

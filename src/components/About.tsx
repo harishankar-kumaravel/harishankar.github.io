@@ -11,49 +11,49 @@ const About: React.FC = () => {
       <div className="about-grid">
         <div className="about-text reveal">
           <p>
-            I'm <strong>Harishankar K</strong>, a creative and versatile <strong>Motion Graphic & Graphic Designer</strong> based in India. I have delivered high-quality design assets for global clients across India, Dubai, Germany, Canada, and the USA.
+            I'm <strong>Harishankar Kumaravel</strong>, a passionate <strong>Motion Graphic Designer</strong> who transforms concepts into compelling visual narratives. With expertise in After Effects, Premiere Pro, and cutting-edge animation techniques, I create cinematic experiences that tell stories and drive engagement.
           </p>
           <p>
-            Skilled in digital design tools and AI image generation, with a foundational passion for motion graphics. I adapt visuals to diverse brand identities and work effectively under tight deadlines. Eager to create engaging content that drives brand storytelling.
+            My work spans TV commercials, brand animations, social media content, and visual effects for clients across India, Dubai, Germany, Canada, and the USA. I combine technical proficiency with creative vision to deliver motion graphics that not only look stunning but also achieve measurable results.
           </p>
           <p>
-            📞 <strong>9952455048</strong> &nbsp;·&nbsp; ✉ <strong>k.harish2323@gmail.com</strong>
+            When I'm not crafting animations, you'll find me exploring new techniques in 3D animation, experimenting with AI-powered design tools, or mentoring aspiring motion designers.
           </p>
         </div>
         <div className="about-highlights reveal">
           <div className="highlight-item">
+            <div className="highlight-icon">�</div>
+            <div>
+              <div className="highlight-title">Motion Graphics Specialist</div>
+              <div className="highlight-desc">
+                Expert in After Effects, Cinema 4D, and advanced animation techniques for TVCs, brand films, and digital campaigns.
+              </div>
+            </div>
+          </div>
+          <div className="highlight-item">
             <div className="highlight-icon">🌍</div>
             <div>
-              <div className="highlight-title">Global Client Experience</div>
+              <div className="highlight-title">Global Client Portfolio</div>
               <div className="highlight-desc">
-                TATA, Coromandel, Mizaj (Dubai), Namma Grocery (Germany), SaleleadIT (Canada), Darzee (USA), G Square.
+                TATA, Coromandel, Mizaj (Dubai), Namma Grocery (Germany), SaleleadIT (Canada), Darzee (USA), and more.
               </div>
             </div>
           </div>
           <div className="highlight-item">
             <div className="highlight-icon">🏆</div>
             <div>
-              <div className="highlight-title">Leadership</div>
+              <div className="highlight-title">Award-Winning Work</div>
               <div className="highlight-desc">
-                Team Leader for Animation Dept (UG) · Project Head (Diploma) · Science Club Leader.
+                Recognized for innovative motion design solutions and creative storytelling that drives brand engagement.
               </div>
             </div>
           </div>
           <div className="highlight-item">
             <div className="highlight-icon">⚡</div>
             <div>
-              <div className="highlight-title">Core Strengths</div>
+              <div className="highlight-title">Fast Turnaround</div>
               <div className="highlight-desc">
-                Analytical problem-solving, deadline-driven, strong communicator, team collaborator, design challenge solver.
-              </div>
-            </div>
-          </div>
-          <div className="highlight-item">
-            <div className="highlight-icon">✦</div>
-            <div>
-              <div className="highlight-title">Availability</div>
-              <div className="highlight-desc">
-                Open for freelance projects & full-time roles. Quick turnaround, diverse brand adaptation.
+                Efficient workflow and project management ensuring high-quality deliverables within tight deadlines.
               </div>
             </div>
           </div>

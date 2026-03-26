@@ -2,15 +2,15 @@ import React from 'react';
 
 const Skills: React.FC = () => {
   const skillsData = [
-    { name: 'GRAPHIC DESIGN', desc: 'Photoshop & Illustrator — branding, print collateral, digital ads, packaging, and social media creatives.', pct: '95%' },
-    { name: 'MOTION GRAPHICS', desc: 'After Effects & Premiere — TVC, logo animations, social media videos, and brand motion content.', pct: '92%' },
-    { name: 'ILLUSTRATION', desc: 'Adobe Illustrator — vector illustration, custom graphics, and character/icon design.', pct: '88%' },
-    { name: 'VIDEO EDITING', desc: 'Premiere Pro & DaVinci Resolve — cinematic editing, colour grading, and post-production.', pct: '85%' },
-    { name: 'UI/UX DESIGN', desc: 'Figma — interface design, wireframing, prototyping, and user experience research.', pct: '80%' },
-    { name: 'AI IMAGE GEN', desc: 'AI-assisted image generation and creative ideation seamlessly integrated into design workflows.', pct: '85%' },
-    { name: '3D MODELLING', desc: '3D modelling, rendering, and product visualisation for brand and creative projects.', pct: '70%' },
-    { name: 'ROTOSCOPING', desc: 'Frame-by-frame rotoscoping for VFX compositing and clean visual effects production.', pct: '75%' },
-    { name: 'DIGITAL MARKETING', desc: 'Campaign design, social content strategy, and visual assets for digital marketing initiatives.', pct: '72%' },
+    { name: 'AFTER EFFECTS', desc: 'Advanced motion graphics, visual effects, and complex animations for TVCs and brand campaigns.', pct: '95%' },
+    { name: 'CINEMA 4D', desc: '3D modeling, texturing, lighting, and rendering for cinematic motion graphics and product visualization.', pct: '88%' },
+    { name: 'PREMIERE PRO', desc: 'Professional video editing, color grading, and post-production for broadcast and digital content.', pct: '92%' },
+    { name: 'MOTION DESIGN', desc: 'Character animation, logo reveals, kinetic typography, and dynamic visual storytelling.', pct: '90%' },
+    { name: 'VISUAL EFFECTS', desc: 'Compositing, rotoscoping, particle systems, and advanced VFX techniques.', pct: '85%' },
+    { name: 'STORYBOARDING', desc: 'Visual planning, shot composition, and narrative sequencing for motion projects.', pct: '82%' },
+    { name: 'GRAPHIC DESIGN', desc: 'Photoshop & Illustrator for concept art, UI elements, and motion graphics assets.', pct: '88%' },
+    { name: 'VIDEO PRODUCTION', desc: 'Full production pipeline from pre-production to final delivery and client presentation.', pct: '80%' },
+    { name: 'AI INTEGRATION', desc: 'AI-powered tools for enhanced creativity, automated workflows, and innovative design solutions.', pct: '75%' },
   ];
 
   return (

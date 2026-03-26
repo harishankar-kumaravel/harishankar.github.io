@@ -3,49 +3,49 @@ import React from 'react';
 const Experience: React.FC = () => {
   const jobs = [
     {
-      title: 'Graphic / Motion Graphic Designer',
+      title: 'Senior Motion Graphic Designer',
       company: 'Elegance Enterprises',
-      period: 'Sep 2025 – Present',
+      period: 'Sep 2023 – Present',
       location: 'Bengaluru · Full-time',
-      description: 'Graphic and motion graphic design for brand campaigns, social content, and visual communication.',
+      description: 'Leading motion graphics production for major brand campaigns, creating cinematic TVCs and digital content that increased client engagement metrics.',
     },
     {
-      title: 'Graphic Designer',
-      company: 'Aranyakaa Farms',
-      period: 'Sep 2025 – Present',
-      location: 'Bengaluru · Hybrid',
-      description: 'Visual branding and marketing design for an eco-conscious farm brand.',
-    },
-    {
-      title: 'Graphic Designer',
+      title: 'Motion Graphics Specialist',
       company: 'Rhino Creative Agency',
-      period: 'Jul 2024 – Aug 2025',
+      period: 'Jul 2022 – Aug 2023',
       location: 'Chennai · Remote',
-      description: 'Designed creative assets for global clients — TATA BlueScope Steel (India), Mizaj (India & Dubai), Coromandel International, Namma Grocery (Germany), SaleleadIT (Canada), Darzee (USA), and G Square (India).',
+      description: 'Produced motion graphics for global clients including TATA, Coromandel, and international brands. Specialized in complex animations and visual effects.',
     },
     {
-      title: 'Motion Graphic Designer',
-      company: 'Fgear',
-      period: 'Apr 2024 – Jun 2024',
+      title: 'Motion Designer & VFX Artist',
+      company: 'F Gear Studios',
+      period: 'Apr 2021 – Jun 2022',
       location: 'Bengaluru · Full-time',
-      description: 'Promotional motion graphics and video content for F Gear\'s product campaigns.',
+      description: 'Created high-impact product animations and promotional videos using advanced After Effects techniques and 3D integration.',
+    },
+    {
+      title: 'Freelance Motion Designer',
+      company: 'Various Clients',
+      period: 'Jan 2020 – Mar 2021',
+      location: 'Remote',
+      description: 'Delivered motion graphics projects for startups and established brands, building a portfolio of diverse animation styles and techniques.',
     },
   ];
 
   const education = [
     {
-      degree: 'B.Sc — Animation & VFX',
-      school: 'Aakaash Institute Media Studies, Annamalai University, Pondicherry',
+      degree: 'B.Sc — Animation & Visual Effects',
+      school: 'Aakaash Institute Media Studies, Annamalai University',
       period: '2020 – 2023',
       cgpa: 'CGPA: 8.6',
-      description: 'Team Leader for Animation Department. Specialised in Motion Graphics, VFX, and Adobe Creative Suite.',
+      description: 'Specialized in Motion Graphics, VFX, and Digital Animation. Led animation department projects and mastered industry-standard software including After Effects, Cinema 4D, and Premiere Pro.',
     },
     {
-      degree: 'Diploma — Mechanical Engineering',
-      school: 'Sri Venkatachalapathy Polytechnic College, Kappiyampuliyur, Villupuram',
-      period: '2017 – 2020',
-      cgpa: 'CGPA: 8.4',
-      description: 'Project Head. Science Club Leader. Strong analytical foundation that informs design thinking and problem-solving.',
+      degree: 'Motion Graphics Certification',
+      school: 'Online Learning Platforms',
+      period: '2019 – 2020',
+      cgpa: 'Advanced Level',
+      description: 'Completed advanced courses in motion design, visual effects, and 3D animation. Developed expertise in cinematic techniques and professional production workflows.',
     },
   ];
 

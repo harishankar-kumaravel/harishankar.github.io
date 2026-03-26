@@ -37,8 +37,8 @@ const Contact: React.FC = () => {
       </div>
       <div className="contact-wrap">
         <div className="contact-info reveal">
-          <h3>LET'S BUILD SOMETHING <span style={{ color: 'var(--accent)' }}>GREAT</span></h3>
-          <p>Open for freelance projects and full-time roles. Global clients welcome. Quick turnaround, strong deadline commitment.</p>
+          <h3>READY TO BRING YOUR <span style={{ color: 'var(--accent)' }}>VISION</span> TO LIFE?</h3>
+          <p>Let's create something extraordinary together. From concept to screen, I specialize in motion graphics that tell stories and drive results.</p>
           <div className="contact-links">
             <a href="mailto:k.harish2323@gmail.com" className="contact-link">
               <span className="contact-link-icon">✉</span>
@@ -49,11 +49,11 @@ const Contact: React.FC = () => {
               <span className="contact-link-label">+91 99524 55048</span>
             </a>
             <a href="https://www.behance.net/Harishankar_K" target="_blank" rel="noopener noreferrer" className="contact-link">
-              <span className="contact-link-icon">◈</span>
-              <span className="contact-link-label">Behance — Harishankar_K</span>
+              <span className="contact-link-icon">🎬</span>
+              <span className="contact-link-label">Behance Portfolio</span>
             </a>
             <a href="https://www.linkedin.com/in/harishankar-k-1072b5232" target="_blank" rel="noopener noreferrer" className="contact-link">
-              <span className="contact-link-icon">◉</span>
+              <span className="contact-link-icon">💼</span>
               <span className="contact-link-label">LinkedIn Profile</span>
             </a>
           </div>
@@ -95,10 +95,13 @@ const Contact: React.FC = () => {
                 onChange={handleChange}
               >
                 <option value="">Select a service</option>
-                <option>Brand Identity</option>
-                <option>UI/UX Design</option>
-                <option>Motion Design</option>
-                <option>Editorial / Print</option>
+                <option>Motion Graphics & Animation</option>
+                <option>TVC & Commercial Production</option>
+                <option>Brand Film & Storytelling</option>
+                <option>Social Media Animation</option>
+                <option>Logo Animation & Reveals</option>
+                <option>3D Animation & VFX</option>
+                <option>Product Visualization</option>
                 <option>Other</option>
               </select>
             </div>
